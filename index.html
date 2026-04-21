@@ -26,15 +26,16 @@
   <!-- TÜRKÇE -->
   <div id="content-tr" class="lang-content active">
     <h1>AgroMap Gizlilik Politikası</h1>
-    <p class="updated">Son güncelleme: Mart 2026</p>
+    <p class="updated">Son güncelleme: Nisan 2026</p>
 
-    <p>AgroMap uygulamasını kullandığınız için teşekkür ederiz. Gizliliğiniz bizim için önemlidir. Bu politika, uygulamamızın hangi verileri nasıl işlediğini açıklar.</p>
+    <p>AgroMap uygulamasını kullandığınız için teşekkür ederiz. Gizliliğiniz bizim için önemlidir. Bu politika, uygulamamızın hangi verileri nasıl işlediğini açıklar ve hem iOS hem de Android sürümleri için geçerlidir.</p>
 
     <h2>1. Toplanan Veriler</h2>
     <p>AgroMap yalnızca aşağıdaki verileri kullanır:</p>
     <ul>
-      <li><strong>Konum verisi:</strong> Tarla tarama ve haritalama işlemleri sırasında GPS konumunuz kullanılır.</li>
-      <li><strong>Hareket sensörü verisi:</strong> Ekipman yönelimini hesaplamak için kullanılır.</li>
+      <li><strong>Konum verisi (GPS):</strong> Tarla tarama ve haritalama işlemleri sırasında GPS konumunuz kullanılır. Android'de <code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code> ve <code>ACCESS_BACKGROUND_LOCATION</code> izinleri üzerinden erişilir.</li>
+      <li><strong>Hareket sensörü verisi:</strong> Ekipman yönelimini ve traktör hareketini hassas şekilde hesaplamak için ivmeölçer, jiroskop ve manyetometre verileri kullanılır. Android'de <code>HIGH_SAMPLING_RATE_SENSORS</code> izni üzerinden erişilir.</li>
+      <li><strong>Ön plan servisi:</strong> Android'de tarama sırasında uygulamanın arka planda kapanmaması için <code>FOREGROUND_SERVICE</code> ve <code>FOREGROUND_SERVICE_LOCATION</code> izinleri kullanılır.</li>
       <li><strong>Kullanıcı adı ve şifre:</strong> Cihazınızda şifrelenmiş olarak saklanır.</li>
       <li><strong>Tarla ve operasyon verileri:</strong> Oluşturduğunuz tarlalar, koordinatlar ve operasyon kayıtları.</li>
     </ul>
@@ -45,22 +46,32 @@
     <h2>3. Veriler Kimlerle Paylaşılır?</h2>
     <p>Hiçbir kişisel veri üçüncü taraflarla paylaşılmaz, satılmaz veya aktarılmaz.</p>
 
-    <h2>4. Konum İzni</h2>
-    <p>Uygulama, tarla tarama özelliği aktifken konum erişimi kullanır. Konum verisi yalnızca cihazınızda işlenir ve dışarıya aktarılmaz. İzni istediğiniz zaman telefon ayarlarından kaldırabilirsiniz.</p>
+    <h2>4. Konum İzni ve Arka Plan Kullanımı</h2>
+    <p>Uygulama, tarla tarama özelliği aktifken konum erişimi kullanır. Traktörle tarla taraması yaparken ekran kapalı olsa veya uygulama arka planda çalışsa bile konum verisinin kesintisiz toplanması gerekir; bu nedenle <strong>arka planda konum erişimi (background location)</strong> talep edilir. Konum verisi yalnızca cihazınızda işlenir ve hiçbir dış sunucuya aktarılmaz. İzni istediğiniz zaman telefon ayarlarından kaldırabilirsiniz.</p>
 
     <h2>5. Veri Güvenliği</h2>
     <p>Şifreler SHA-256 algoritması ile hashlenerek saklanır. Verileriniz cihazınızın güvenli depolama alanında tutulur.</p>
 
     <h2>6. Abonelik ve Ödeme</h2>
-    <p>AgroMap Plus aboneliği Apple App Store üzerinden yönetilir. Ödeme bilgileri yalnızca Apple tarafından işlenir; uygulamamız hiçbir ödeme bilgisine erişemez veya saklamaz. Aboneliğinizi Ayarlar → Apple ID → Abonelikler bölümünden yönetebilirsiniz.</p>
+    <p>AgroMap Plus aboneliği, uygulamanın indirildiği platforma göre Apple App Store veya Google Play Store üzerinden yönetilir. Ödeme bilgileri yalnızca ilgili platform sağlayıcısı (Apple veya Google) tarafından işlenir; uygulamamız hiçbir ödeme bilgisine erişmez, saklamaz veya üçüncü taraflarla paylaşmaz.</p>
+    <p>Aboneliğinizi aşağıdaki yollardan yönetebilirsiniz:</p>
+    <ul>
+      <li><strong>iOS kullanıcıları:</strong> Ayarlar → Apple ID → Abonelikler</li>
+      <li><strong>Android kullanıcıları:</strong> Google Play Store → Profil → Ödemeler ve abonelikler → Abonelikler</li>
+    </ul>
+    <p>Abonelik iptali, mevcut fatura döneminin sonunda geçerli olur. İade talepleri ilgili platform sağlayıcısının politikalarına tabidir.</p>
 
-    <h2>7. Çocukların Gizliliği</h2>
+    <h2>7. Verilerin Silinmesi</h2>
+    <p>Tüm verileriniz cihazınızda saklandığı için, uygulamayı telefonunuzdan kaldırdığınızda tüm kişisel verileriniz (kullanıcı adı, şifre, tarla ve operasyon kayıtları) otomatik olarak silinir. Uygulama içinden "Çıkış yap" ve "Hesabı sil" seçenekleri ile de verilerinizi temizleyebilirsiniz.</p>
+    <p>Hesabınızın veya verilerinizin silinmesiyle ilgili ek bir talebiniz varsa, <a href="mailto:furkanfsq@gmail.com">furkanfsq@gmail.com</a> adresinden bize ulaşabilirsiniz. Talebiniz en geç 30 gün içinde işleme alınır.</p>
+
+    <h2>8. Çocukların Gizliliği</h2>
     <p>AgroMap, 13 yaşın altındaki çocuklara yönelik değildir ve bu yaş grubundan bilerek veri toplamaz.</p>
 
-    <h2>8. Değişiklikler</h2>
+    <h2>9. Değişiklikler</h2>
     <p>Bu gizlilik politikası güncellenebilir. Önemli değişiklikler uygulama güncellemeleri aracılığıyla duyurulur.</p>
 
-    <h2>9. İletişim</h2>
+    <h2>10. İletişim</h2>
     <p>Gizlilik politikasıyla ilgili sorularınız için:<br>
     <strong>E-posta:</strong> <a href="mailto:furkanfsq@gmail.com">furkanfsq@gmail.com</a></p>
   </div>
@@ -68,15 +79,16 @@
   <!-- ENGLISH -->
   <div id="content-en" class="lang-content">
     <h1>AgroMap Privacy Policy</h1>
-    <p class="updated">Last updated: March 2026</p>
+    <p class="updated">Last updated: April 2026</p>
 
-    <p>Thank you for using AgroMap. Your privacy is important to us. This policy explains what data our app uses and how it is handled.</p>
+    <p>Thank you for using AgroMap. Your privacy is important to us. This policy explains what data our app uses and how it is handled. It applies to both the iOS and Android versions of the app.</p>
 
     <h2>1. Data We Collect</h2>
     <p>AgroMap only uses the following data:</p>
     <ul>
-      <li><strong>Location data:</strong> Your GPS location is used during field scanning and mapping operations.</li>
-      <li><strong>Motion sensor data:</strong> Used to calculate equipment orientation.</li>
+      <li><strong>Location data (GPS):</strong> Your GPS location is used during field scanning and mapping operations. On Android, access is granted through the <code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code>, and <code>ACCESS_BACKGROUND_LOCATION</code> permissions.</li>
+      <li><strong>Motion sensor data:</strong> Accelerometer, gyroscope, and magnetometer readings are used to accurately calculate equipment orientation and tractor motion. On Android, this requires the <code>HIGH_SAMPLING_RATE_SENSORS</code> permission.</li>
+      <li><strong>Foreground service:</strong> On Android, <code>FOREGROUND_SERVICE</code> and <code>FOREGROUND_SERVICE_LOCATION</code> permissions are used to keep the app running during scanning sessions.</li>
       <li><strong>Username and password:</strong> Stored encrypted on your device only.</li>
       <li><strong>Field and operation data:</strong> Fields you create, coordinates, and operation records.</li>
     </ul>
@@ -87,22 +99,32 @@
     <h2>3. Data Sharing</h2>
     <p>No personal data is shared with, sold to, or transferred to any third parties.</p>
 
-    <h2>4. Location Permission</h2>
-    <p>The app uses location access while the field scanning feature is active. Location data is processed only on your device and is not transmitted externally. You can revoke this permission at any time in your phone settings.</p>
+    <h2>4. Location Permission and Background Usage</h2>
+    <p>The app uses location access while the field scanning feature is active. During tractor-based field scanning, location data must be collected continuously even when the screen is off or the app is in the background; therefore, <strong>background location access</strong> is requested. Location data is processed only on your device and is never transmitted to any external server. You can revoke this permission at any time in your phone settings.</p>
 
     <h2>5. Data Security</h2>
     <p>Passwords are hashed using the SHA-256 algorithm. Your data is kept in your device's secure storage area.</p>
 
     <h2>6. Subscriptions and Payments</h2>
-    <p>AgroMap Plus subscriptions are managed through the Apple App Store. Payment information is processed solely by Apple; our app cannot access or store any payment details. You can manage your subscription via Settings → Apple ID → Subscriptions.</p>
+    <p>AgroMap Plus subscriptions are managed through the Apple App Store or Google Play Store, depending on the platform from which the app was installed. Payment information is processed solely by the respective platform provider (Apple or Google); our app cannot access, store, or share any payment details with third parties.</p>
+    <p>You can manage your subscription through:</p>
+    <ul>
+      <li><strong>iOS users:</strong> Settings → Apple ID → Subscriptions</li>
+      <li><strong>Android users:</strong> Google Play Store → Profile → Payments and subscriptions → Subscriptions</li>
+    </ul>
+    <p>Subscription cancellations take effect at the end of the current billing period. Refund requests are subject to the policies of the respective platform provider.</p>
 
-    <h2>7. Children's Privacy</h2>
+    <h2>7. Data Deletion</h2>
+    <p>Since all your data is stored on your device, uninstalling the app from your phone automatically deletes all personal data (username, password, field and operation records). You can also clear your data using the "Log out" and "Delete account" options inside the app.</p>
+    <p>For any additional requests regarding the deletion of your account or data, you can contact us at <a href="mailto:furkanfsq@gmail.com">furkanfsq@gmail.com</a>. Your request will be processed within 30 days.</p>
+
+    <h2>8. Children's Privacy</h2>
     <p>AgroMap is not intended for children under the age of 13 and does not knowingly collect data from this age group.</p>
 
-    <h2>8. Changes</h2>
+    <h2>9. Changes</h2>
     <p>This privacy policy may be updated. Significant changes will be announced through app updates.</p>
 
-    <h2>9. Contact</h2>
+    <h2>10. Contact</h2>
     <p>For questions about this privacy policy:<br>
     <strong>Email:</strong> <a href="mailto:furkanfsq@gmail.com">furkanfsq@gmail.com</a></p>
   </div>
@@ -115,7 +137,6 @@
       event.target.classList.add('active');
     }
 
-    // Tarayıcı diline göre otomatik seç
     const browserLang = navigator.language.startsWith('tr') ? 'tr' : 'en';
     if (browserLang === 'en') {
       document.getElementById('content-tr').classList.remove('active');

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroMap - Hesap ve Veri Silme / Account &amp; Data Deletion</title>
+  <style>
+    body { font-family: -apple-system, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.7; }
+    h1 { color: #2d5a27; border-bottom: 2px solid #2d5a27; padding-bottom: 10px; }
+    h2 { color: #2d5a27; margin-top: 30px; }
+    .updated { color: #888; font-size: 14px; }
+    .lang-switcher { text-align: right; margin-bottom: 20px; }
+    .lang-btn { background: none; border: 1px solid #2d5a27; color: #2d5a27; padding: 6px 16px; border-radius: 20px; cursor: pointer; font-size: 14px; margin-left: 8px; }
+    .lang-btn.active { background: #2d5a27; color: #fff; }
+    .lang-content { display: none; }
+    .lang-content.active { display: block; }
+    ol li { margin-bottom: 8px; }
+    .note { background: #f4f8f2; border-left: 4px solid #2d5a27; padding: 12px 16px; border-radius: 4px; margin: 20px 0; }
+  </style>
+</head>
+<body>
+
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('tr')">TR</button>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
+  </div>
+
+  <!-- TÜRKÇE -->
+  <div id="content-tr" class="lang-content active">
+    <h1>AgroMap — Hesap ve Veri Silme</h1>
+    <p class="updated">Son güncelleme: Nisan 2026</p>
+
+    <p>AgroMap uygulamasının geliştiricisi olarak, kullanıcılarımızın hesaplarını ve ilgili verilerini silme hakkına tam şeffaflıkla saygı duyuyoruz.</p>
+
+    <div class="note">
+      <strong>Önemli:</strong> AgroMap tüm kullanıcı verilerini (kullanıcı adı, şifre, tarla, operasyon kayıtları, konum geçmişi vb.) yalnızca kullanıcının cihazında saklar. Hiçbir veri bulut sunucusunda tutulmaz.
+    </div>
+
+    <h2>1. Uygulama İçinden Hesabı Silme (Önerilen Yöntem)</h2>
+    <ol>
+      <li>AgroMap uygulamasını açın ve hesabınıza giriş yapın.</li>
+      <li>Sol üst köşedeki menü (☰) simgesine dokunun.</li>
+      <li>"Hesabı Sil" seçeneğine dokunun.</li>
+      <li>Onay ekranında işlemi onaylayın.</li>
+    </ol>
+    <p>Bu işlem, hesabınıza bağlı tüm kişisel verileri (kullanıcı adı, şifre, tarlalar, klasörler, operasyon kayıtları, hatırlatıcılar ve planlanmış rotalar dahil) cihazınızdan kalıcı olarak siler.</p>
+
+    <h2>2. Uygulamayı Kaldırarak Silme</h2>
+    <p>Veriler yalnızca cihazda saklandığından, AgroMap uygulamasını telefonunuzdan kaldırdığınızda tüm kişisel veriler otomatik olarak silinir. Google Play veya cihazın uygulama ayarlarından "Uygulamayı kaldır" işlemi yeterlidir.</p>
+
+    <h2>3. E-posta Yoluyla Talep</h2>
+    <p>Hesabınız veya verileriniz hakkında ek bir talebiniz varsa, aşağıdaki adrese e-posta gönderebilirsiniz:</p>
+    <p><strong>E-posta:</strong> <a href="mailto:furkanfsq@gmail.com?subject=AgroMap%20Hesap%20Silme%20Talebi">furkanfsq@gmail.com</a></p>
+    <p>Talepler en geç <strong>30 gün</strong> içinde yanıtlanır.</p>
+
+    <h2>4. Silinen Veri Türleri</h2>
+    <ul>
+      <li>Kullanıcı adı ve görünen ad</li>
+      <li>Şifre hash'i (SHA-256)</li>
+      <li>Oluşturulan tarlalar ve koordinatları</li>
+      <li>Klasörler ve etiketler</li>
+      <li>Operasyon kayıtları ve istatistikleri</li>
+      <li>Hatırlatıcılar ve planlanmış rotalar</li>
+      <li>Uygulama tercihleri</li>
+    </ul>
+
+    <h2>5. Saklanan Veri Türleri</h2>
+    <p>Hesabınızı sildikten sonra AgroMap tarafında <strong>hiçbir kullanıcı verisi saklanmaz</strong>. RevenueCat üzerinden yapılan aboneliklerin anonim satın alma kayıtları, yasal zorunluluklar gereği finansal denetim amacıyla RevenueCat tarafından kendi saklama politikalarına tabidir; bu veriler kullanıcıyı doğrudan tanımlayan bilgi içermez.</p>
+
+    <h2>6. İletişim</h2>
+    <p><strong>Geliştirici:</strong> Furkan (AgroMap)<br>
+    <strong>E-posta:</strong> <a href="mailto:furkanfsq@gmail.com">furkanfsq@gmail.com</a></p>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="content-en" class="lang-content">
+    <h1>AgroMap — Account and Data Deletion</h1>
+    <p class="updated">Last updated: April 2026</p>
+
+    <p>As the developer of the AgroMap app, we fully respect our users' right to delete their accounts and associated data.</p>
+
+    <div class="note">
+      <strong>Important:</strong> AgroMap stores all user data (username, password, fields, operation records, location history, etc.) only on the user's device. No data is stored on cloud servers.
+    </div>
+
+    <h2>1. In-App Account Deletion (Recommended)</h2>
+    <ol>
+      <li>Open the AgroMap app and log in to your account.</li>
+      <li>Tap the menu icon (☰) in the top-left corner.</li>
+      <li>Tap "Delete Account".</li>
+      <li>Confirm the action on the confirmation screen.</li>
+    </ol>
+    <p>This permanently deletes all personal data associated with your account (username, password, fields, folders, operation records, reminders, and planned routes) from your device.</p>
+
+    <h2>2. Deletion by Uninstalling the App</h2>
+    <p>Since data is stored only on the device, uninstalling the AgroMap app from your phone automatically deletes all personal data. Simply uninstalling the app via Google Play or your device's app settings is sufficient.</p>
+
+    <h2>3. Request via Email</h2>
+    <p>For any additional requests regarding your account or data, you can send an email to:</p>
+    <p><strong>Email:</strong> <a href="mailto:furkanfsq@gmail.com?subject=AgroMap%20Account%20Deletion%20Request">furkanfsq@gmail.com</a></p>
+    <p>Requests are responded to within <strong>30 days</strong>.</p>
+
+    <h2>4. Types of Data Deleted</h2>
+    <ul>
+      <li>Username and display name</li>
+      <li>Password hash (SHA-256)</li>
+      <li>Created fields and their coordinates</li>
+      <li>Folders and labels</li>
+      <li>Operation records and statistics</li>
+      <li>Reminders and planned routes</li>
+      <li>App preferences</li>
+    </ul>
+
+    <h2>5. Types of Data Retained</h2>
+    <p>After your account is deleted, <strong>no user data is retained by AgroMap</strong>. Anonymous purchase records of subscriptions made via RevenueCat may be retained by RevenueCat for financial audit purposes in accordance with their own retention policies; these records do not contain personally identifying information.</p>
+
+    <h2>6. Contact</h2>
+    <p><strong>Developer:</strong> Furkan (AgroMap)<br>
+    <strong>Email:</strong> <a href="mailto:furkanfsq@gmail.com">furkanfsq@gmail.com</a></p>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+      document.getElementById('content-' + lang).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+    const browserLang = navigator.language.startsWith('tr') ? 'tr' : 'en';
+    if (browserLang === 'en') {
+      document.getElementById('content-tr').classList.remove('active');
+      document.getElementById('content-en').classList.add('active');
+      document.querySelectorAll('.lang-btn')[0].classList.remove('active');
+      document.querySelectorAll('.lang-btn')[1].classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
